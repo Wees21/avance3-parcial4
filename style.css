@@ -1,0 +1,182 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#titulo{
+    background-color: #e0bb9a;
+    color: #40210d;
+    text-align:right;
+ }
+
+ h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align:end
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-size: 3.0rem;
+    font-weight: 900;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container-fluid{
+    padding: 5% 15% 7%;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #331d0c;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+    text-align: center;
+    color: #331d0c;
+}
+
+.nav-item {
+    padding: 0 50px;
+    color: #331d0c;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: #331d0c;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width: 80%;
+    position: absolute;
+    right: 60;
+}
+
+#caracteristicas {
+    padding: 10% 15%;
+    background-color: #fff8f3;
+    position:relative;
+    
+}
+
+.caja-caracteristica{
+    text-align:center;
+    padding: 10%;
+}
+
+p{
+    color: #331d0c;
+}
+
+.icon {
+    color: #40210d;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.icon:hover {
+    color: #40210d;
+}
+
+#testimonios {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #7c5439;
+    color: #40210d;
+}
+p{ color: #7c5439;
+    padding: auto;
+} 
+h5{font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align:center
+}
+.carousel-inner{
+    width: 50%;
+    left: 100;
+    margin: 250px;
+    position:center;
+}
+
+#prensa{
+    background-color:#40210d;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.logo-prensa {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 10% 20%;
+}
+
+#precios {
+    padding: 100px;
+    text-align: center;
+    color: #40210d;
+}
+
+.precios-col {
+    padding: 5% 2%;
+    color: #40210d;
+}
+
+#cta{
+    background-color: #40210d;
+    color: #fff;
+    padding: 5% 10%;
+    text-align: center;
+    border-image-width: 5;
+}
+
+.encabezado-cta{
+    font-family: 'Montserrat';
+    font-weight: 950;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.img-cta{ width: 20;
+    margin: 30;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+    color: #331d0c;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+
+@media (max-width: 1028px) {
+    #titulo{
+        text-align: center;
+    }
+    
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
